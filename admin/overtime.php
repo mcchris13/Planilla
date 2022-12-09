@@ -49,7 +49,7 @@
                   <th>ID Empleado</th>
                   <th>Nombre</th>
                   <th>No. de Horas</th>
-                  <th>Rate</th>
+                  <th>Pago/h</th>
                   <th>Acción</th>
                 </thead>
                 <tbody>

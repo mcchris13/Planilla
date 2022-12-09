@@ -5,7 +5,10 @@
       <span class="logo-lg">SAM I&C S.A.C</span>
     </a>
     <nav class="navbar navbar-static-top">
-      
+
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
 
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
@@ -16,6 +19,9 @@
             <ul class="dropdown-menu">
               
               <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#profile" data-toggle="modal" class="btn btn-default btn-flat" id="admin_profile">Actualizar</a>
+                </div>
                 <div class="pull-right">
                   <a href="logout.php" class="btn btn-default btn-flat">Cerrar Sesión</a>
                 </div>
@@ -26,3 +32,4 @@
       </div>
     </nav>
   </header>
+  <?php include 'includes/profile_modal.php'; ?>

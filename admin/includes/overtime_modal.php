@@ -33,7 +33,7 @@
                   	</div>
                 </div>
                  <div class="form-group">
-                    <label for="rate" class="col-sm-3 control-label">Promedio</label>
+                    <label for="rate" class="col-sm-3 control-label">Pago/h</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="rate" name="rate" required>
@@ -79,7 +79,7 @@
                 </div>
                 
                  <div class="form-group">
-                    <label for="rate_edit" class="col-sm-3 control-label">Promedio</label>
+                    <label for="rate_edit" class="col-sm-3 control-label">Pago/h</label>
 
                     <div class="col-sm-9">
                       <input type="number" class="form-control" id="rate_edit" name="rate" required>
